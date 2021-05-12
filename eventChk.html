@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            font-size: 24px;
+        }
+        #wrap {
+            width: 400px;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #000;
+        }
+        ul {
+            line-height: 50px;
+            list-style: none;
+        }
+        #temp {
+            border: 1px solid #000;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <div id="wrap">
+
+        <ul>
+            <li>
+                <span>입력</span> <input type="text" size="10" id="txt" value="데이터">
+                <button type="button">확인</button>
+            </li>
+            <li>
+                선택사항
+                <select>
+                    <option>펼침메뉴1</option>
+                    <option>펼침메뉴2</option>
+                    <option>펼침메뉴3</option>
+                </select>
+            </li>
+            <li>
+                <div id="temp">임시영역</div>
+            </li>
+        </ul>
+
+    </div>
+</body>
+</html>
